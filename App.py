@@ -47,6 +47,7 @@ def main():
     webServer.start()
     mqttClient.connect()
     heartBeat.start()
+    mqttClient.start()
 
 
 if __name__ == '__main__':
