@@ -92,4 +92,4 @@ class RedDetector:
         if self.state is not newState:
             self.state = newState
             self.mqttClient.publish(
-                "infraRed", {"sensor": self.mqttClient.user, "state": str(self.state)})
+                "sensors/infraRed", {"sensor": self.mqttClient.user, "state": str(self.state)})
