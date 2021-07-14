@@ -17,6 +17,8 @@ To the topic `sensors/infraRed`. The state `HOT` is sent when a red object appea
 - Docker compose
 - Webcam
 
+### Instructions
+
 To deploy it on a x86_64 architecture run
 
 ``` bash
